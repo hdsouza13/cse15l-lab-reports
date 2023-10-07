@@ -54,3 +54,5 @@ cat: used to print the contents of one or more files given by the paths
 
 ![Image](cat1.png)
 
+
+
