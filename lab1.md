@@ -54,5 +54,24 @@ cat: used to print the contents of one or more files given by the paths
 
 ![Image](cat1.png)
 
+the working directory is /home
+
+when we used cat everthing that we write, it will be the output
+
+2.using a directory as argument
+
+![Image](cat2.png)
+
+we get an error, because cat use only for read the file, and lecture1 is a directory
+
+3.using a file as arugment
+
+![Image](cat3.png)
+
+the working directory is /home
+
+its print what was written on the README file
+
+
 
 
