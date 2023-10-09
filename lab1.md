@@ -1,8 +1,10 @@
 #Lab Report 1        
--
-__cd: used to switch the current working directory to the given path__ 
+=========
 
-1.using no arguments
+cd: used to switch the current working directory to the given path
+---------
+
+__1.using no arguments__
 
 ![Image](cd1.png)
 
@@ -10,7 +12,7 @@ __cd: used to switch the current working directory to the given path__
 
 - there was no output, as it was only accessing the home directory
 
-2.using a directory as argument
+__2.using a directory as argument__
 
 ![Image](cd2.png)
 
@@ -18,15 +20,16 @@ __cd: used to switch the current working directory to the given path__
 
 - there was no output, as it was only accessing the lecture1 directory now
 
-3.using a file as arugment
+__3.using a file as arugment__
 
 ![Image](cd3.png)
 
 - we get an error with that, because cd is only used to acess directory, but README is a file
 
-__ls: used to list the files and folders the given path__ 
+ls: used to list the files and folders the given path
+---------
 
-1.using no arguments
+__1.using no arguments__
 
 ![Image](ls1.png)
 
@@ -34,7 +37,7 @@ __ls: used to list the files and folders the given path__
 
 - we get a list of the home directory /home, that is only the lecture1 folder
 
-2.using a directory as argument
+__2.using a directory as argument__
 
 ![Image](ls2.png)
 
@@ -42,15 +45,18 @@ __ls: used to list the files and folders the given path__
 
 - we get a list of the directory /lecture1, so we get the folder like messages and the file like Hello.class, Hello.java, README
 
-3.using a file as arugment
+__3.using a file as arugment__
 
 ![Image](ls3.png)
 
-- the README file is the last file, so there is no more list after that, then the path was printed
+- the working directory is /home
 
-__cat: used to print the contents of one or more files given by the paths__
+- the README file was the last file, so after that there is no more list, so the path was the output
 
-1.so the file README is the last file, so there is no more list after that, so the output was the path
+cat: used to print the contents of one or more files given by the paths
+---------
+
+__1.using no arguments__
 
 ![Image](cat1.png)
 
@@ -58,13 +64,13 @@ __cat: used to print the contents of one or more files given by the paths__
 
 - when we used cat everthing that we write, it will be the output
 
-2.using a directory as argument
+__2.using a directory as argument__
 
 ![Image](cat2.png)
 
 - we get an error, because cat use only for read the file, and lecture1 is a directory
 
-3.using a file as arugment
+__3.using a file as arugment__
 
 ![Image](cat3.png)
 
