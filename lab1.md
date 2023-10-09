@@ -1,6 +1,8 @@
 #Lab Report 1        
 =========
 
+![Image](intro.png)
+
 cd: used to switch the current working directory to the given path
 ---------
 
