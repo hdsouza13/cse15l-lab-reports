@@ -20,13 +20,13 @@ __2.using a directory as argument__
 
 - the working directory now is `/home/lecture1`
 
-- there was no output, as it was only accessing the lecture1 directory now
+- there was no output, as it was only accessing the `/lecture1` directory now
 
 __3.using a file as arugment__
 
 ![Image](cd3.png)
 
-- we get an error with that, because cd is only used to acess directory, but `README` is a file
+- we get an error with that, because `cd` is only used to acess directory, but `README` is a file
 
 ls: used to list the files and folders the given path
 ---------
@@ -64,13 +64,13 @@ __1.using no arguments__
 
 - the working directory is `/home`
 
-- when we used cat everthing that we write, it will be the output
+- when we used `cat` everthing that we write, it will be the output
 
 __2.using a directory as argument__
 
 ![Image](cat2.png)
 
-- we get an error, because cat use only for read the file, and lecture1 is a directory
+- we get an error, because `cat` use only for read the file, and `/lecture1` is a directory
 
 __3.using a file as arugment__
 
