@@ -92,6 +92,8 @@ __3.using a file as arugment__
 
 - when we use the file as argument, its print what was written on the `README` file
 
+- no error
+
 
 
 
