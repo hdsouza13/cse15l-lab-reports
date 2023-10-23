@@ -91,8 +91,9 @@ LS
 
 ![Image](ph27.png)
 
+Part 3
 
-
+I learned how to use the terminal better, as well as use Visual Studio better. Furthermore, I learned how to open remote servers, and through them I can manage files on another computer, even if I'm not using that computer.
 
 
 
