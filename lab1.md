@@ -34,6 +34,8 @@ __3.using a file as arugment__
 
 - So now we tried the argument like `README`.However, we get an error with that, because `cd` is only used to acess directory, but `README` is a file
 
+-error
+
 ls: used to list the files and folders the given path
 ---------
 
@@ -63,9 +65,9 @@ __3.using a file as arugment__
 
 - the working directory is `/home`
 
-- So using the argument of `README`, the `README` file was the last file. So after that there is no more list, so the path was the output
+- So using the argument of `README`, the `README` file was the last file. So after that there is no more list. So we get an error, because we are trying to find a list of a file inside a file
 
-- no error
+- error
 
 cat: used to print the contents of one or more files given by the paths
 ---------
@@ -84,7 +86,11 @@ __2.using a directory as argument__
 
 ![Image](cat2.png)
 
+-- the working directory is `/home`
+
 - when we use the argument as a directory,we get an error. Because `cat` use only for read the file, and `/lecture1` is a directory
+
+- error
 
 __3.using a file as arugment__
 
@@ -92,7 +98,7 @@ __3.using a file as arugment__
 
 - the working directory is `/home`
 
-- when we use the file as argument, its print what was written on the `README` file
+- when we use the file as argument, its print what was written on the `README` file. So basically give us the output on what was written in the file
 
 - no error
 
