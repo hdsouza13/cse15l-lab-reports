@@ -77,7 +77,7 @@ class NumberServer {
 
 - Revelant Fields: `message` is "1.Hello\n"
 
-- Change in Fields: `message` becomes "1.Hello\n2. How are you\n". The 1.Hello stayed, because the string concatenate
+- Change in Fields: `message` becomes "1.Hello\n2. How are you\n". The 1.Hello stayed, because the string concatenate with 2. How are you\n
 
 
 Part 2
