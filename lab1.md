@@ -22,7 +22,7 @@ __2.using a directory as argument__
 
 - the working directory now is `/home/lecture1`
 
-- there was no output, as it was only accessing the `/lecture1` directory now. So now there is a argument like `lecture1`. Doing that we are able do open the folder of `lecture1` by the filesystem
+- there was no output, as it was only accessing the `/lecture1` directory now. So now there is a argument like `/lecture1`. Doing that we are able do open the folder of `/lecture1` by the filesystem
 
 - no error
 
