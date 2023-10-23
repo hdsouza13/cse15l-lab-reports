@@ -3,6 +3,7 @@
 
 
 Part 1
+---------
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -80,14 +81,15 @@ class NumberServer {
 
 
 Part 2
+---------
 
-The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+The path to the private key for your `SSH key` for logging into ieng6 (on your computer or on the home directory of the lab computer)
 
 ![Image](ph20.png)
 
 ![Image](ph21.png)
 
-The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+The path to the public key for your `SSH key` for logging into ieng6 (within your account on ieng6)
 
 ![Image](ph22.png)
 
@@ -102,6 +104,7 @@ LS
 ![Image](ph27.png)
 
 Part 3
+---------
 
 I learned how to use the terminal better, as well as use Visual Studio better. Furthermore, I learned how to open remote servers, and through them I can manage files on another computer, even if I'm not using that computer.
 
