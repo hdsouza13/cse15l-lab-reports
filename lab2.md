@@ -58,15 +58,23 @@ class NumberServer {
 ```
 ![Image](ph25.png)
 
-- The `/add-message` method is being called
+- Method: GET
 
-- The revelent argument for this method is the string "Hello"
+- Arguments: `/add-message?s=Hello`
+
+- Revelant Fields: `message` is initally empty
+
+- Change in Fields: `message` becomes "1.Hello\n"
 
 ![Image](ph26.png)
 
-- The `/add-message` method is being called
+- Method: GET
 
-- The revelent argument for this method is the string "How are you"
+- Arguments: `/add-message?s=How are you`
+
+- Revelant Fields: `message` is "1.Hello\n"
+
+- Change in Fields: `message` becomes "1.Hello\n2. How are you\n"
 
 
 Part 2
