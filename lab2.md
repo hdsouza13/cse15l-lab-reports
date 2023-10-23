@@ -1,7 +1,7 @@
 Lab Report 2
 
 Part 1
-
+```
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -55,3 +55,28 @@ class NumberServer {
         Server.start(port, new Handler());
     }
 }
+```
+![Image](ph25.png)
+
+- The `/add-message` method is being called
+
+- The revelent argument for this method is the string "Hello"
+
+![Image](ph26.png)
+
+- The `/add-message` method is being called
+
+- The revelent argument for this method is the string "How are you"
+
+
+Part 2
+
+The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+
+
+
+
+
+  
+
+
