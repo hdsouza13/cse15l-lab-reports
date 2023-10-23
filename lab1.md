@@ -30,6 +30,8 @@ __3.using a file as arugment__
 
 ![Image](cd3.png)
 
+-the working directory now is `/home/lecture1`
+
 - So now we tried the argument like `README`.However, we get an error with that, because `cd` is only used to acess directory, but `README` is a file
 
 ls: used to list the files and folders the given path
