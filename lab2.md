@@ -101,7 +101,7 @@ A terminal interaction where you log into ieng6 with your course-specific accoun
 
 LS
 
-![Image](ph27.png)
+
 
 Part 3
 ---------
