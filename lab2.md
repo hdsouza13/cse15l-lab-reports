@@ -100,8 +100,15 @@ A terminal interaction where you log into ieng6 with your course-specific accoun
 ![Image](ph24.png)
 
 LS
+Local
+![Image](lslocal.png)
 
+The private key is usually located at 'id_rsa' and the public key is usually located at 'id_rsa.pub'
 
+Remote
+![Image](lsremote.png)
+
+The private key is usually located at 'authorized_keys'
 
 Part 3
 ---------
