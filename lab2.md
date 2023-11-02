@@ -65,9 +65,11 @@ class NumberServer {
 
 - Arguments: `/add-message?s=Hello`
 
-- Revelant Fields: `message` is initally empty
+- Revelant Fields: `message` is initally empty and counter = 1
 
 - Change in Fields: `message` becomes "1.Hello\n"
+
+So on this example, we are using the argument `/add-message?s=Hello`, so this will make the counter be equal to 1 and it will concatenate the output of message with "1.Hello\n"
 
 ![Image](ph26.png)
 
@@ -75,9 +77,11 @@ class NumberServer {
 
 - Arguments: `/add-message?s=How are you`
 
-- Revelant Fields: `message` is "1.Hello\n"
+- Revelant Fields: `message` is "1.Hello\n" and counter = 2
 
-- Change in Fields: `message` becomes "1.Hello\n2. How are you\n". The 1.Hello stayed, because the string concatenate with 2. How are you\n
+- Change in Fields: `message` becomes "1.Hello\n2. How are you\n". The 1.Hello stayed, because the string concatenate with 2. How are you\n and counter will be 2
+
+So on this example, we are using the argument `/add-message?s=How are you`, so this will make the counter of 1 to increase to 2 and it will concatenate the output of message with "2. How are you\n". So the message will become "1.Hello\n2. How are you\n"
 
 
 Part 2
