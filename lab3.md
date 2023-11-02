@@ -10,7 +10,7 @@ public class ArrayTests {
 	}
 ```
 
-![Image](lab3.1.png)
+![Image](ph lab3.1.png)
 
 
 wrong
@@ -24,9 +24,9 @@ wrong
 	}
 ```
 
-![Image](lab3.2.png)
+![Image](ph lab3.2.png)
 
-![Image](lab3.3.png)
+![Image](ph lab3.3.png)
 
 
  code before
@@ -55,4 +55,4 @@ public class ArrayExamples {
   }
 ```
 
-![Image](lab3.3.png)
+![Image](ph lab3.3.png)
