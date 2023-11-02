@@ -1,5 +1,6 @@
 
 correct
+'''
 public class ArrayTests {
 	@Test 
 	public void testReverseInPlace() {
@@ -7,9 +8,12 @@ public class ArrayTests {
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
+ '''
+![Image](lab3.1.png)
 
 
 wrong
+'''
  public class ArrayTests {
 	@Test 
 	public void testReverseInPlace() {
@@ -17,8 +21,14 @@ wrong
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3,2,1 }, input1);
 	}
+ '''
+![Image](lab3.2.png)
+
+![Image](lab3.3.png)
+
 
  code before
+ '''
 public class ArrayExamples {
 
   // Changes the input array to be in reversed order
@@ -27,9 +37,10 @@ public class ArrayExamples {
       arr[i] = arr[arr.length - i - 1];
     }
   }
-
+'''
   
   code after
+  '''
 public class ArrayExamples {
 
   // Changes the input array to be in reversed order
@@ -40,3 +51,6 @@ public class ArrayExamples {
       arr[arr.length - i - 1] = temp;
     }
   }
+  '''
+
+  ![Image](lab3.3.png)
