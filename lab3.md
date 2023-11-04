@@ -1,3 +1,6 @@
+Lab Report 3
+
+Part 1
 
 correct
 ```
@@ -82,7 +85,7 @@ Source: https://alvinalexander.com/unix/edu/examples/find.shtml
 
 2: Search by size
 
-example 1:  Find all files larger than 1MB in the ./technical directory.
+example 1:  Find all files larger than 1MB in the ./technical directory
 ```
 find ./technical -type f -size +1M
 ```
@@ -96,7 +99,7 @@ find ./technical -type f -size -100k
 
 Explanation:  The -size +1M in Example 3 searches for files larger than 1MB, while -size -100k in Example 4 searches for files smaller than 100KB. This is useful for filtering files based on their size. Depending how is your task, if you need to find a larger or smaller file, this will save a lot of time
 
-source: https://www.howtoforge.com/tutorial/linux-find-command-examples/
+Source: https://www.howtoforge.com/tutorial/linux-find-command-examples/
 
 3: Execute Commands on Found Files
 
@@ -113,7 +116,7 @@ find ./technical -type f -name "*.pdf" -exec cp {} /backup \;
 ```
 ![Image](phfind3.2.png)
 
-Explanation:  The -exec rm {} \; in Example 5 deletes found files, and -exec cp {} /backup \; in Example 6 copies found files to another directory. This is useful for performing actions on the found files.
+Explanation:  The -exec rm {} \; in Example 5 deletes found files, and -exec cp {} /backup \; in Example 6 copies found files to another directory. This is useful for performing actions on the found files
 
 Source: https://www.tecmint.com/35-practical-examples-of-linux-find-command/
 
