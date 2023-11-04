@@ -60,6 +60,7 @@ public class ArrayExamples {
 
 ![Image](phlab3.4.png)
 
+The code was not storing the value within memory; the value that was supposed to be stored was being overwritten in the code. So, I created a variable to store this value, and this way, I wouldn't lose it during the code. In addition, I was making unnecessary loops; since the values are changed with each interaction, we only need to do n/2, with n being the size of the array.
 
 Part 2
 
