@@ -58,7 +58,7 @@ public class ArrayExamples {
   }
 ```
 
-![Image](phlab3.3.png)
+![Image](phlab3.4.png)
 
 
 Part 2
