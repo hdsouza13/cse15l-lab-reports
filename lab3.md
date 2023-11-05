@@ -72,13 +72,13 @@ example 1: Find all text files in the ./technical directory
 ```
 find ./technical -type f -name "*.txt"
 ```
-![Image](phfind1.1.png)
+![Image](ph30.png)
 
 example 2: Find all directories in the ./technical directory
 ```
 find ./technical -type d
 ```
-![Image](phfind1.2.png)
+![Image](ph31.png)
 
 Explanation: The -type f in Example 1 filters the search to find only files, and -type d in Example 2 finds only directories. This is useful for targeting specific file types. Depending how many directories and files you have, this can save a lot of time when you are trying to find.
 
@@ -90,13 +90,13 @@ example 1: Find all files larger than 1MB in the ./technical directory
 ```
 find ./technical -type f -size +1M
 ```
-![Image](phfind2.1.png)
+![Image](ph32.png)
 
 example 2: Find all files smaller than 100KB in the ./technical directory
 ```
 find ./technical -type f -size -100k
 ```
-![Image](phfind2.2.png)
+![Image](ph33.png)
 
 Explanation: The -size +1M in Example 3 searches for files larger than 1MB, while -size -100k in Example 4 searches for files smaller than 100KB. This is useful for filtering files based on their size. Depending how is your task, if you need to find a larger or smaller file, this will save a lot of time
 
@@ -127,13 +127,13 @@ example 1: Find all files modified within the last 7 days in the ./technical dir
 ```
 find ./technical -type f -mtime -7
 ```
-![Image](phfind4.1.png)
+![Image](ph36.png)
 
 example 2: Find all files modified more than 30 days ago
 ```
 find ./technical -type f -mtime +30
 ```
-![Image](phfind4.2.png)
+![Image](ph37.png)
 
 Explanation: The -mtime -7 in Example 7 finds files modified within the last 7 days, and -mtime +30 in Example 8 finds files modified more than 30 days ago. This is useful for time-based searches.
 
