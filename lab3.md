@@ -1,7 +1,7 @@
-Lab Report 3
-
+#Lab Report 3
+=========
 Part 1
-
+-------
 Correct
 ```
 public class ArrayTests {
@@ -63,8 +63,8 @@ public class ArrayExamples {
 The code was not storing the value within memory; the value that was supposed to be stored was being overwritten in the code. So, I created a variable to store this value, and this way, I wouldn't lose it during the code. In addition, I was making unnecessary loops; since the values are changed with each interaction, we only need to do n/2, with n being the size of the array.
 
 Part 2
-
-find
+-------
+Find
 
 1: Search by File Type
 
