@@ -72,8 +72,15 @@ example 1: Find all text files in the ./technical directory
 ```
 find ./technical -type f -name "*.txt"
 ```
-![Image](ph30.png)
-
+```
+./technical/biomed/1471-2350-2-2.txt
+./technical/biomed/1471-2350-2-8.txt
+./technical/biomed/1471-2350-2-1.txt
+./technical/biomed/1471-2350-2-12.txt
+./technical/biomed/1471-2350-2-7.txt
+./technical/biomed/1471-2350-2-9.txt
+./technical/biomed/1471-2350-2-2.txt
+```
 example 2: Find all directories in the ./technical directory
 ```
 find ./technical -type d
