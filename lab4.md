@@ -7,7 +7,7 @@ Log into ieng6
 
 Clone your fork of the repository from your Github account (using the SSH URL)
 ---
-![Image](phlab4.5.png)
+![Image](phlab4.6.png)
 
 Run the tests, demonstrating that they fail
 ---
