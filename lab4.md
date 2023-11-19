@@ -17,7 +17,23 @@ Edit the code file ListExamples.java to fix the failing test (as a reminder, the
 ---
 
 vim TestExamples.java
-43j 11l x a <- 2 <esq> :qw <enter>
+
+43j
+
+11l
+
+x
+
+a 
+
+<-
+
+2
+<esq> 
+
+:qw 
+
+<enter>
 
 j: the number of lines you want to go down
 
