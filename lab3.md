@@ -80,12 +80,28 @@ find ./technical -type f -name "*.txt"
 ./technical/biomed/1471-2350-2-7.txt
 ./technical/biomed/1471-2350-2-9.txt
 ./technical/biomed/1471-2350-2-2.txt
+./technical/biomed/1471-2350-2-3.txt
+./technical/biomed/1471-2350-2-4.txt
+./technical/biomed/1471-2350-2-6.txt
+./technical/biomed/1471-2350-2-1.txt
 ```
 example 2: Find all directories in the ./technical directory
 ```
 find ./technical -type d
 ```
-![Image](ph31.png)
+```
+./technical
+./technical/911report
+./technical/biomed
+./technical/goverment
+./technical/goverment/About_LSC
+./technical/goverment/Alcohol_Problems
+./technical/goverment/Env_Prot_Agen
+./technical/goverment/Gen_Account_Office
+./technical/goverment/Media
+./technical/goverment/Post_Rate_Comm
+./technical/goverment/plos
+```
 
 Explanation: The -type f in Example 1 filters the search to find only files, and -type d in Example 2 finds only directories. This is useful for targeting specific file types. Depending how many directories and files you have, this can save a lot of time when you are trying to find.
 
