@@ -77,13 +77,13 @@ find ./technical -type f -name "*.txt"
 ./technical/biomed/1471-2350-2-8.txt
 ./technical/biomed/1471-2350-2-1.txt
 ./technical/biomed/1471-2350-2-12.txt
-./technical/biomed/1471-2350-2-7.txt
-./technical/biomed/1471-2350-2-9.txt
-./technical/biomed/1471-2350-2-2.txt
-./technical/biomed/1471-2350-2-3.txt
-./technical/biomed/1471-2350-2-4.txt
-./technical/biomed/1471-2350-2-6.txt
-./technical/biomed/1471-2350-2-1.txt
+./technical/biomed/1471-2350-3-7.txt
+./technical/biomed/1471-2350-3-9.txt
+./technical/biomed/1471-2350-4-2.txt
+./technical/biomed/1471-2350-4-3.txt
+./technical/biomed/1471-2350-4-4.txt
+./technical/biomed/1471-2350-4-6.txt
+./technical/biomed/1471-2350-3-1.txt
 ```
 example 2: Find all directories in the ./technical directory
 ```
@@ -100,7 +100,7 @@ find ./technical -type d
 ./technical/goverment/Gen_Account_Office
 ./technical/goverment/Media
 ./technical/goverment/Post_Rate_Comm
-./technical/goverment/plos
+./technical/plos
 ```
 
 Explanation: The -type f in Example 1 filters the search to find only files, and -type d in Example 2 finds only directories. This is useful for targeting specific file types. Depending how many directories and files you have, this can save a lot of time when you are trying to find.
@@ -113,13 +113,32 @@ example 1: Find all files larger than 1MB in the ./technical directory
 ```
 find ./technical -type f -size +1M
 ```
-![Image](ph32.png)
+```
+hugox@DESKTOP-VKNE67B MINGW64 ~/OneDrive/Documentos/Github/docsearch (main)
+$ 
+```
 
 example 2: Find all files smaller than 100KB in the ./technical directory
 ```
 find ./technical -type f -size -100k
 ```
-![Image](ph33.png)
+```
+./technical/biomed/1471-2334-1-24.txt
+./technical/biomed/1471-2334-1-9.txt
+./technical/biomed/1471-2334-2-1.txt
+./technical/biomed/1471-2334-2-24.txt
+./technical/biomed/1471-2334-2-26.txt
+./technical/biomed/1471-2334-2-27.txt
+./technical/biomed/1471-2334-2-29.txt
+./technical/biomed/1471-2334-2-5.txt
+./technical/biomed/1471-2334-2-6.txt
+./technical/biomed/1471-2334-2-7.txt
+./technical/biomed/1471-2334-3-10.txt
+./technical/biomed/1471-2334-3-11.txt
+./technical/biomed/1471-2334-3-12.txt
+./technical/biomed/1471-2334-3-13.txt
+./technical/biomed/1471-2334-3-15.txt
+```
 
 Explanation: The -size +1M in Example 3 searches for files larger than 1MB, while -size -100k in Example 4 searches for files smaller than 100KB. This is useful for filtering files based on their size. Depending how is your task, if you need to find a larger or smaller file, this will save a lot of time
 
@@ -132,13 +151,18 @@ example 1: Find and delete all .bak files in the ./technical directory
 find ./technical -type f -name "*.bak" -exec rm {} \;
 ```
 
-![Image](phfind3.1.png)
+```
+... (no output, files are deleted)
+```
 
 example 2: Find and copy all .pdf files to another directory
 ```
 find ./technical -type f -name "*.pdf" -exec cp {} /backup \;
 ```
-![Image](phfind3.2.png)
+
+```
+... (no output, files are copied)
+```
 
 Explanation: The -exec rm {} \; in Example 5 deletes found files, and -exec cp {} /backup \; in Example 6 copies found files to another directory. This is useful for performing actions on the found files
 
@@ -150,13 +174,28 @@ example 1: Find all files modified within the last 7 days in the ./technical dir
 ```
 find ./technical -type f -mtime -7
 ```
-![Image](ph36.png)
+```
+./technical/biomed/1471-2350-2-2.txt
+./technical/biomed/1471-2350-2-8.txt
+./technical/biomed/1471-2350-3-1.txt
+./technical/biomed/1471-2350-3-12.txt
+./technical/biomed/1471-2350-3-7.txt
+./technical/biomed/1471-2350-3-9.txt
+./technical/biomed/1471-2350-4-2.txt
+./technical/biomed/1471-2350-4-3.txt
+./technical/biomed/1471-2350-4-4.txt
+./technical/biomed/1471-2350-4-6.txt
+./technical/biomed/1471-2350-3-1.txt
+```
 
 example 2: Find all files modified more than 30 days ago
 ```
 find ./technical -type f -mtime +30
 ```
-![Image](ph37.png)
+```
+hugox@DESKTOP-VKNE67B MINGW64 ~/OneDrive/Documentos/Github/docsearch (main)
+$ 
+```
 
 Explanation: The -mtime -7 in Example 7 finds files modified within the last 7 days, and -mtime +30 in Example 8 finds files modified more than 30 days ago. This is useful for time-based searches.
 
