@@ -3,10 +3,10 @@ Log into ieng6
 ![Image](phlab4.1.png)
 
 Clone your fork of the repository from your Github account (using the SSH URL)
-![Image](phlab4.2.png)
+![Image](phlab4.5.png)
 
 Run the tests, demonstrating that they fail
-![Image](phlab4.3.png)
+![Image](phlab4.2.png)
 
 Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge)
 vim TestExamples.java
@@ -23,4 +23,4 @@ Run the tests, demonstrating that they now succeed
 ![Image](phlab4.4.png)
 
 Commit and push the resulting change to your Github account
-ph
+![Image](phlab4.3.png)
