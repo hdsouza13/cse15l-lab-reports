@@ -11,11 +11,13 @@ Clone your fork of the repository from your Github account (using the SSH URL)
 ---
 ![Image](lab4ph1.png)
 
-
+git clone git@github.com:hdsouza13/lab7.git ```<enter>```
 
 Run the tests, demonstrating that they fail
 ---
 ![Image](lab4ph2.png)
+
+bash test.sh ```<enter>```
 
 Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge)
 ---
@@ -56,7 +58,13 @@ Run the tests, demonstrating that they now succeed
 ---
 ![Image](lab4ph3.png)
 
+bash test.sh ```<enter>```
+
 Commit and push the resulting change to your Github account
 ----
 ![Image](lab4ph4.png)
 ![Image](lab4ph5.png)
+
+git add ListExamples.java ```<enter>```
+git commit -m "Success" ```<enter>```
+git push ```<enter>```
