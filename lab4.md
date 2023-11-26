@@ -66,5 +66,7 @@ Commit and push the resulting change to your Github account
 ![Image](lab4ph5.png)
 
 git add ListExamples.java ```<enter>```
+
 git commit -m "Success" ```<enter>```
+
 git push ```<enter>```
