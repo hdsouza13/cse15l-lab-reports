@@ -5,9 +5,13 @@ Log into ieng6
 ---
 ![Image](phlab4.1.png)
 
+ssh ssh cs15lfa23hr@ieng6.ucsd.edu <enter>
+
 Clone your fork of the repository from your Github account (using the SSH URL)
 ---
 ![Image](lab4ph1.png)
+
+
 
 Run the tests, demonstrating that they fail
 ---
