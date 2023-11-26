@@ -7,11 +7,11 @@ Log into ieng6
 
 Clone your fork of the repository from your Github account (using the SSH URL)
 ---
-![Image](phlab4.6.png)
+![Image](phlab4ph1.png)
 
 Run the tests, demonstrating that they fail
 ---
-![Image](phlab4.2.png)
+![Image](phlab4ph2.png)
 
 Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge)
 ---
@@ -50,8 +50,9 @@ a: append a element
 
 Run the tests, demonstrating that they now succeed
 ---
-![Image](phlab4.4.png)
+![Image](phlab4ph3.png)
 
 Commit and push the resulting change to your Github account
 ----
-![Image](phlab4.3.png)
+![Image](phlab4ph4.png)
+![Image](phlab4ph5.png)
