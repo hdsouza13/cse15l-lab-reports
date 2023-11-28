@@ -5,19 +5,26 @@ Log into ieng6
 ---
 ![Image](phlab4.1.png)
 
-ssh cs15lfa23hr@ieng6.ucsd.edu ```<enter>```
+```ssh<space>cs15lfa23hr@ieng6.ucsd.edu<enter>```
+
+So I use the ssh to login in the remote server of ieng6, and I didnt need to use my password because I already setup it using the -keygen
 
 Clone your fork of the repository from your Github account (using the SSH URL)
 ---
 ![Image](lab4ph1.png)
 
-git clone git@github.com:hdsouza13/lab7.git ```<enter>```
+```git<space>clone<space>git@github.com:hdsouza13/lab7.git<enter>```
+
+I git clone my git hub ssh url of my github repository 
 
 Run the tests, demonstrating that they fail
 ---
 ![Image](lab4ph2.png)
 
-bash test.sh ```<enter>```
+```bash<space>test.sh<enter>```
+
+I run the bash test.sh to show that the code was incorrect and fail
+
 
 Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge)
 ---
@@ -58,15 +65,20 @@ Run the tests, demonstrating that they now succeed
 ---
 ![Image](lab4ph3.png)
 
-bash test.sh ```<enter>```
+```bash<space>test.sh<enter>```
+
+I run the bash test.sh to show that the code was correct and succed
 
 Commit and push the resulting change to your Github account
 ----
 ![Image](lab4ph4.png)
 ![Image](lab4ph5.png)
 
-git add ListExamples.java ```<enter>```
+```git<space>add<space>ListExamples.java<enter>```
+This command put my file on the stage mode
 
-git commit -m "Success" ```<enter>```
+git<space>commit<space>-m<space>"Success" ```<enter>```
+This create commit with the message "Sucess"
 
-git push ```<enter>```
+```git<space>push<enter>```
+This gonna push to my github repository
