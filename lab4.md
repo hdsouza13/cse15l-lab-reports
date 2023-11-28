@@ -67,7 +67,7 @@ Run the tests, demonstrating that they now succeed
 
 ```bash<space>test.sh<enter>```
 
-I run the bash test.sh to show that the code was correct and succed
+I run the bash test.sh to show that the code was correct and succeed
 
 Commit and push the resulting change to your Github account
 ----
@@ -75,10 +75,13 @@ Commit and push the resulting change to your Github account
 ![Image](lab4ph5.png)
 
 ```git<space>add<space>ListExamples.java<enter>```
+
 This command put my file on the stage mode
 
-git<space>commit<space>-m<space>"Success" ```<enter>```
-This create commit with the message "Sucess"
+```git<space>commit<space>-m<space>"Success"<enter>```
+
+This create commit with the message "Success"
 
 ```git<space>push<enter>```
+
 This gonna push to my github repository
