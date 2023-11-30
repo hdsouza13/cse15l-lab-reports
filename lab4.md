@@ -7,7 +7,7 @@ Log into ieng6
 
 ```ssh<space>cs15lfa23hr@ieng6.ucsd.edu<enter>```
 
-So I use the ssh to login in the remote server of ieng6, and I didnt need to use my password because I already setup it using the -keygen
+So I use the ssh to login in the remote server of ieng6, and I didnt need to use my password because I already setup it using the ssh-keygen, the authentication key.
 
 Clone your fork of the repository from your Github account (using the SSH URL)
 ---
@@ -15,7 +15,12 @@ Clone your fork of the repository from your Github account (using the SSH URL)
 
 ```git<space>clone<space>git@github.com:hdsouza13/lab7.git<enter>```
 
-I git clone my git hub ssh url of my github repository 
+Before I do this command, I forked my github repository on my browser and copy the text as a ssh clone. So then I git clone my git hub ssh url of my github repository. 
+
+`` cd<space>lab7<enter>
+ls<enter>```
+
+After I clone my repository, I used the ```cd lab ``` to set the working directory and ```ls``` to view what it is inside it
 
 Run the tests, demonstrating that they fail
 ---
