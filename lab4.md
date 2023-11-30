@@ -17,8 +17,8 @@ Clone your fork of the repository from your Github account (using the SSH URL)
 
 Before I do this command, I forked my github repository on my browser and copy the text as a ssh clone. So then I git clone my git hub ssh url of my github repository. 
 
-`` cd<space>lab7<enter>
-ls<enter>```
+`` cd<space>lab7<enter>```
+```ls<enter>```
 
 After I clone my repository, I used the ```cd lab ``` to set the working directory and ```ls``` to view what it is inside it
 
@@ -34,37 +34,25 @@ I run the bash test.sh to show that the code was incorrect and fail
 Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge)
 ---
 
-vim TestExamples.java
+```vim<space>ListExample.java```
 
-43j
+So I used the vim command, so I can edit and correct the file, using my terminal
 
-11l
+Inside vim
+---
 
-x
+```/index1<enter> n ```
 
-a 
+To go to the part that I need to fix, I first type ```/index1``` and enter to search for index1.Then I pressed n some times until I finally able to find the "index1" that need to be changed to "index2"
 
-<-
+```e r 2<esq>:wq<enter>```
 
-2
+```e``` is to go to the end of the word
 
-<esq> 
+```r2``` replace the last character in the word to be a “2”, to make the word “index2”
 
-:qw 
+```:wq<enter>``` to save my changes and exit out of vim
 
-<enter>
-
-j: the number of lines you want to go down
-
-l: the number of spaces you want to go to the right
-
-x: delete a element
-
-a: append a element
-
-<esq> to leave the edit mode
-
-:qw -> to save what you edit
 
 Run the tests, demonstrating that they now succeed
 ---
