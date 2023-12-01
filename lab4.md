@@ -17,7 +17,7 @@ Clone your fork of the repository from your Github account (using the SSH URL)
 
 Before I do this command, I forked my github repository on my browser and copy the text as a ssh clone. So then I git clone my git hub ssh url of my github repository. 
 
-`` cd<space>lab7<enter>```
+```cd<space>lab7<enter>```
 
 ```ls<enter>```
 
@@ -75,8 +75,8 @@ This command put my file on the stage mode
 
 ```git<space>commit<space>-m<space>"Success"<enter>```
 
-This create commit with the message "Success"
+This create commit with the message "Success" using ```-m``` option
 
 ```git<space>push<enter>```
 
-This gonna push to my github repository
+This gonna push to update the remote git repository
