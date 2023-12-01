@@ -21,7 +21,7 @@ Before I do this command, I forked my github repository on my browser and copy t
 
 ```ls<enter>```
 
-After I clone my repository, I used the ```cd lab ``` to set the working directory and ```ls``` to view what it is inside it
+After I clone my repository, I used the ```cd lab7``` to set the working directory and ```ls``` to view what it is inside it
 
 Run the tests, demonstrating that they fail
 ---
