@@ -18,6 +18,7 @@ Clone your fork of the repository from your Github account (using the SSH URL)
 Before I do this command, I forked my github repository on my browser and copy the text as a ssh clone. So then I git clone my git hub ssh url of my github repository. 
 
 `` cd<space>lab7<enter>```
+
 ```ls<enter>```
 
 After I clone my repository, I used the ```cd lab ``` to set the working directory and ```ls``` to view what it is inside it
@@ -53,6 +54,7 @@ To go to the part that I need to fix, I first type ```/index1``` and enter to se
 
 ```:wq<enter>``` to save my changes and exit out of vim
 
+![Image](phlab4.7.png)
 
 Run the tests, demonstrating that they now succeed
 ---
