@@ -7,7 +7,7 @@ Log into ieng6
 
 ```ssh<space>cs15lfa23hr@ieng6.ucsd.edu<enter>```
 
-So I use the ssh to login in the remote server of ieng6, and I didnt need to use my password because I already setup it using the ssh-keygen, the authentication key.
+So I use the ssh to login in the remote server of ieng6, and I didnt need to use my password because I already setup it using the ```ssh-keygen```, the authentication key.
 
 Clone your fork of the repository from your Github account (using the SSH URL)
 ---
