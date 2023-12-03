@@ -23,6 +23,11 @@ But look when I runned now I got another error.
 
 ![Image](phlab5.4.png)
 
+TA: You can see that the error is showing it is a TestTimedoutException. So on your code, something is making it run forever, getting this error. So if you have a loop statements, you should look at it, and see if you are making it running forever.
+
+Student: Ohhhh, I saw that my while loop was running forever, because I put the index1, instead of index2. Now it is running very well. Thank you very much for the help.
+
+![Image](phlab5.5.png)
 
 Part 2
 ---
