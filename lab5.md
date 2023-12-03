@@ -3,6 +3,7 @@ Lab 5
 
 Part 1
 ---
+Student: Hello, I was trying to run my program, I know a bash script to compile my code, but it is not trying any output.
 
 
 Part 2
