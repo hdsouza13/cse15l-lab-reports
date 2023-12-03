@@ -3,7 +3,9 @@ Lab 5
 
 Part 1
 ---
-Student: Hello, I was trying to run my program, I know a bash script to compile my code, but it is not trying any output.
+Student: Hello, I was trying to run my program using the bash, however it is not running and its not showing no compile error. As you can see the output is empty.
+
+
 
 
 Part 2
