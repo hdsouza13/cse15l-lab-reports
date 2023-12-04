@@ -20,12 +20,13 @@ Before I do this command, I forked my github repository on my browser and copy t
 I already had the ssh key setup for my github, so no further input was needed to clone the repositoy.
 
 
+After I clone my repository, I used the ```cd lab7``` to set the working directory and ```ls``` to view what it is inside it
 
 ```cd<space>lab7<enter>```
 
 ```ls<enter>```
 
-After I clone my repository, I used the ```cd lab7``` to set the working directory and ```ls``` to view what it is inside it
+![Image](ph9.png)
 
 Run the tests, demonstrating that they fail
 ---
@@ -42,6 +43,8 @@ Edit the code file ListExamples.java to fix the failing test (as a reminder, the
 ```vim<space>ListExample.java```
 
 So I used the vim command, so I can edit and correct the file, using my terminal
+
+![Image](ph10.png)
 
 Inside vim
 ---
@@ -75,12 +78,14 @@ Commit and push the resulting change to your Github account
 
 ```git<space>add<space>ListExamples.java<enter>```
 
-This command put my file on the stage mode
+I type ```git add```, this adds my file ```ListExamples.java``` to be staged.
 
 ```git<space>commit<space>-m<space>"Success"<enter>```
 
-This create commit with the message "Success" using ```-m``` option
+ I type ```git commit``` with the commit message using the -m option, that will create the commit with the message "Sucess".
 
 ```git<space>push<enter>```
 
-This gonna push to update the remote git repository
+Then finally ```git push``` is the final command I use to update the remote git repository.
+
+
