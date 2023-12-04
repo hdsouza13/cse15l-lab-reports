@@ -3,7 +3,9 @@ Lab 5
 
 Part 1
 ---
-Student: Hello, I was trying to run my program using the bash, however it is not running and its not showing no compile error. As you can see the output is empty.
+Student: Hello, I'm having some problems with this project of mine.
+
+I was trying to run my program using the bash, however it is not running and its not showing no compile error. As you can see the output is empty.
 
 ![Image](phlab5.1.png)
 
