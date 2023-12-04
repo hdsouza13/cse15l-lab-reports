@@ -17,6 +17,10 @@ Clone your fork of the repository from your Github account (using the SSH URL)
 
 Before I do this command, I forked my github repository on my browser and copy the text as a ssh clone. So then I git clone my git hub ssh url of my github repository. 
 
+I already had the ssh key setup for my github, so no further input was needed to clone the repositoy.
+
+
+
 ```cd<space>lab7<enter>```
 
 ```ls<enter>```
