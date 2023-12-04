@@ -33,4 +33,4 @@ Student: Ohhhh, I saw that my while loop was running forever, because I put the 
 
 Part 2
 ---
-I learned how to use jdb, I had no idea it existed. This will help me a lot, if my program gives an error, I can compile it and divide them into parts, to see how each part is compiling. Also I learned how to code in bash script, something very new, that I never used. And the bash helped me alot to run the programs.
+So in the second half of this quarter, I learned how to use jdb, I had no idea it existed. This will help me a lot, if my program gives an error, I can compile it and divide them into parts, to see how each part is compiling. Also I learned how to code in bash script, something very new, that I never used. And the bash helped me alot to run the programs, and saved me a lot of time. And I really liked the lab in which we created a code for autocorrection, it made me more or less see how automatic correction works.
