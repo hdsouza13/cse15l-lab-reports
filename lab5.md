@@ -17,15 +17,15 @@ Student: This is what I wrote for my bash file
 
 TA: Ohhhhh, I know your error. So normally on java programs, you need to compile the file, as you are doing using the ```javac```. However, just compiling, it is not going to run automatic your code, so you need something else to run the program.
 
-Student:Ohhhhhh, this is true. I figure out that my code has missing the the ```java``` command to run the file.
+Student: Ohhhhhh, this is true. I figure out that my code has missing the the ```java``` command to run the file.
 
 ![Image](phlab5.3.png)
 
-But look when I runned now I got another error.
+But look when I run now I got another error.
 
 ![Image](phlab5.4.png)
 
-TA: You can see that the error is showing it is a TestTimedoutException. So on your code, something is making it run forever, getting this error. So if you have a loop statements, you should look at it, and see if you are making it running forever.
+TA: You can see that by the output error is showing it is a TestTimedoutException. So on your code, something is making it run forever, getting this error. So if you have a loop statements, you should look at it, and see if you are making it running forever.
 
 Student: Ohhhh, I saw that my while loop was running forever, because I put the index1, instead of index2. Now it is running very well. Thank you very much for the help.
 
