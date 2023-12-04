@@ -15,7 +15,7 @@ Student: This is what I wrote for my bash file
 
 ![Image](phlab5.2.png)
 
-TA:Ohhhhh, I know your error. So normally on java programs, you need to compile the file, as you are doing using the ```javac```. However, just compiling, it is not going to run automatic your code, so you need something else to run the program.
+TA: Ohhhhh, I know your error. So normally on java programs, you need to compile the file, as you are doing using the ```javac```. However, just compiling, it is not going to run automatic your code, so you need something else to run the program.
 
 Student:Ohhhhhh, this is true. I figure out that my code has missing the the ```java``` command to run the file.
 
