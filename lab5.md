@@ -11,7 +11,7 @@ I was trying to run my program using the bash, however it is not running and its
 
 TA: Hummmmmmm. Normally when this happens, it means that the command you used was unable to find the file. Can you show me your bash file.
 
-Student:This is what I wrote in the bash file
+Student: This is what I wrote for my bash file
 
 ![Image](phlab5.2.png)
 
